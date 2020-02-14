@@ -1,4 +1,4 @@
-name: puppeteer-commonjs-jasmine-assert
+name: playwright-commonjs-jasmine-assert
 
 on: 
   push:
@@ -16,6 +16,11 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
+    - name: install required packages
+      run: |
+        sudo apt-get update
+        sudo apt-get install libgbm-dev
+        sudo apt-get install xvfb
     - name: INSTALL PACKAGES
       run: |
         npm ci
