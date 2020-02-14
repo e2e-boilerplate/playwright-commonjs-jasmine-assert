@@ -1,4 +1,4 @@
-# Playwright: (CommonjJS, Jasmine and Assert)
+# Playwright: (CommonJS, Jasmine and Assert)
 
 [![GitHub Actions status | e2e-boilerplates/playwright-commonjs-jasmine-assert](https://github.com/e2e-boilerplates/playwright-commonjs-jasmine-assert/workflows/playwright-commonjs-jasmine-assert/badge.svg)](https://github.com/e2e-boilerplates/playwright-commonjs-jasmine-assert/actions?workflow=playwright-commonjs-jasmine-assert)
 
