@@ -1,0 +1,37 @@
+{
+  "name": "puppeteer-commonjs-jasmine-assert",
+  "version": "1.0.0",
+  "description": "Puppeteer end-to-end test automation boilerplate project. Using commonjs and jasmine.",
+  "scripts": {
+    "test": "npx jasmine",
+    "lint": "npx eslint --ext .js ./ --fix"
+  },
+  "keywords": [
+    "puppeteer",
+    "commonjs",
+    "jasmine",
+    "boilerplate",
+    "example"
+  ],
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-import": "2.20.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "husky": "4.2.3",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "puppeteer": "2.1.1"
+  },
+  "dependencies": {
+    "jasmine": "3.5.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
