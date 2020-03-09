@@ -6,7 +6,7 @@ Playwright end-to-end test automation boilerplate, using Commonjs, Jasmine and A
 
 ## Getting Started
 
-git clone git@github.com:e2e-boilerplate/playwright-commonjs-jasmine-assert.git
-cd playwright-commonjs-jasmine-assert
-npm install
-npm run test
+    	git clone git@github.com:e2e-boilerplate/playwright-commonjs-jasmine-assert.git
+    	cd playwright-commonjs-jasmine-assert
+    	npm install
+    	npm run test
