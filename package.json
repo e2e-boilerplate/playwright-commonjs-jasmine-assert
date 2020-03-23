@@ -8,7 +8,7 @@
     "jasmine": "3.5.0",
     "playwright": "0.11.1"
   },
-  "description": "Playwright end-to-end test automation boilerplate. using Commonjs, Jasmine and Assert.",
+  "description": "Playwright end-to-end test automation boilerplate. Using Commonjs, Jasmine and Assert.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
